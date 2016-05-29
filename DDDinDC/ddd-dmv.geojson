@@ -1,0 +1,131 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    "-77.0721286", 
+                    "38.9559576"
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "city": "Washington", 
+                "episode": "Farm To Table", 
+                "marker-color": "#FF5050", 
+                "marker-size": "large", 
+                "marker-symbol": "restaurant", 
+                "name": "Comet Ping Pong", 
+                "rating": "3.5", 
+                "season": "9", 
+                "state": "DC"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    "-77.0032984", 
+                    "38.8863789"
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "city": "Washington", 
+                "episode": "Tried and True", 
+                "marker-color": "#FF5050", 
+                "marker-size": "large", 
+                "marker-symbol": "restaurant", 
+                "name": "Tune Inn Restaurant", 
+                "rating": "3.5", 
+                "season": "10", 
+                "state": "DC"
+            }, 
+            "type": "Feature"
+        },  
+        {
+            "geometry": {
+                "coordinates": [
+                    "-77.0284494", 
+                    "38.9171609"
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "city": "Washington", 
+                "episode": "Wings Dogs and Claws", 
+                "marker-color": "#FF5050", 
+                "marker-size": "large", 
+                "marker-symbol": "restaurant", 
+                "name": "Oohhs and Aahhs Gourmet Deli", 
+                "rating": "3.5", 
+                "season": "10", 
+                "state": "DC"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    "-77.1759064", 
+                    "38.884188"
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "city": "Falls Church", 
+                "episode": "Gone Global", 
+                "marker-color": "#FF5050", 
+                "marker-size": "large", 
+                "marker-symbol": "restaurant", 
+                "name": "LaCaraquena", 
+                "rating": "4", 
+                "season": "10", 
+                "state": "Virginia"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    "-77.125085", 
+                    "38.898"
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "city": "Arlington", 
+                "episode": "Sweet \u2018n Savory", 
+                "marker-color": "#FF5050", 
+                "marker-size": "large", 
+                "marker-symbol": "restaurant", 
+                "name": "Metro 29 Diner", 
+                "rating": "3", 
+                "season": "10", 
+                "state": "Virginia"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    "-76.9979475", 
+                    "38.8869512"
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "city": "Washington", 
+                "episode": "From Pork to Tofu", 
+                "marker-color": "#FF5050", 
+                "marker-size": "large", 
+                "marker-symbol": "restaurant", 
+                "name": "Tortilla Cafe", 
+                "rating": "4", 
+                "season": "11", 
+                "state": "DC"
+            }, 
+            "type": "Feature"
+        }
+    ], 
+    "type": "FeatureCollection"
+}

@@ -1,0 +1,125 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    "-77.0368707", 
+                    "38.9071923"
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "city": "Washington", 
+                "episode title": "Farm To Table", 
+                "marker-color": "#00CC00", 
+                "marker-symbol": "restaurants", 
+                "name": "Comet Ping Pong", 
+                "rating": "3.5", 
+                "season": "9", 
+                "state": "DC"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    "-77.0368707", 
+                    "38.9071923"
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "city": "Washington", 
+                "episode title": "Tried and True", 
+                "marker-color": "#00CC00", 
+                "marker-symbol": "restaurants", 
+                "name": "Tune In Restaurant", 
+                "rating": "3.5", 
+                "season": "10", 
+                "state": "DC"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    "-77.026088", 
+                    "38.9906657"
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "city": "Silver Spring", 
+                "episode title": "Timeless", 
+                "marker-color": "#00CC00", 
+                "marker-symbol": "restaurants", 
+                "name": "The General Store", 
+                "rating": "3", 
+                "season": "10", 
+                "state": "Maryland"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    "-77.1710914", 
+                    "38.882334"
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "city": "Falls Church", 
+                "episode title": "Gone Global", 
+                "marker-color": "#00CC00", 
+                "marker-symbol": "restaurants", 
+                "name": "LaCaraquena", 
+                "rating": "4", 
+                "season": "10", 
+                "state": "Virginia"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    "-77.1067698", 
+                    "38.8799697"
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "city": "Arlington", 
+                "episode title": "Sweet \u2018n Savory", 
+                "marker-color": "#00CC00", 
+                "marker-symbol": "restaurants", 
+                "name": "Metro 29 Diner", 
+                "rating": "3", 
+                "season": "10", 
+                "state": "Virginia"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    "-77.0368707", 
+                    "38.9071923"
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "city": "Washington", 
+                "episode title": "From Pork to Tofu", 
+                "marker-color": "#00CC00", 
+                "marker-symbol": "restaurants", 
+                "name": "Tortilla Cafe", 
+                "rating": "4", 
+                "season": "11", 
+                "state": "DC"
+            }, 
+            "type": "Feature"
+        }
+    ], 
+    "type": "FeatureCollection"
+}

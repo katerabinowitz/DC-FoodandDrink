@@ -1,0 +1,495 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.9695,38.8977 ]
+    },
+    "properties": {
+    "FIELD1":1,
+    "name":"Open Air Farmers Market",
+    "date":"NA",
+    "time":"NA",
+    "address":"Oklahoma Ave. and Benning Rd., NE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.9752,38.8507 ]
+    },
+    "properties": {
+    "FIELD1":2,
+    "name":"Stanton & Turner Open Air Farmers Market",
+    "date":"NA",
+    "time":"NA",
+    "address":"Stanton and Alabama Avenue SE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.0966,38.9175 ]
+    },
+    "properties": {
+    "FIELD1":3,
+    "name":"Palisades Farmers Market",
+    "date":"NA",
+    "time":"NA",
+    "address":"48th Place NW at MacArthur Blvd"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.0679,38.9664 ]
+    },
+    "properties": {
+    "FIELD1":4,
+    "name":"Broad Branch Farmers Market",
+    "date":"NA",
+    "time":"NA",
+    "address":"Lafayette Elementary School"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.996336,38.886629 ]
+    },
+    "properties": {
+    "FIELD1":5,
+    "name":"Eastern Market Outdoor Farmers Market",
+    "date":"NA",
+    "time":"NA",
+    "address":"225 7th Street SE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.015698,38.906809 ]
+    },
+    "properties": {
+    "FIELD1":6,
+    "name":"USDOT Farmers Market",
+    "date":"05/06/2014 to 11/18/2014",
+    "time":"Tue: 10:00 AM-2:00 PM;",
+    "address":"1200 New Jersey Ave, SE (3rd and M Street)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.0175504,38.8792834 ]
+    },
+    "properties": {
+    "FIELD1":7,
+    "name":"AYA Community Markets",
+    "date":"April to November",
+    "time":"Sat:10:00 AM - 3:00 PM;",
+    "address":"4th Street and I Street, SW"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.99705,38.921233 ]
+    },
+    "properties": {
+    "FIELD1":8,
+    "name":"PCDC Edgewood Farmers Market",
+    "date":"June to September",
+    "time":"Sat:9:00 AM - 1:00 PM;",
+    "address":"680 Rhode Island"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.9960402,38.8560738 ]
+    },
+    "properties": {
+    "FIELD1":9,
+    "name":"Ward 8 Farmers Market at St. Elizabeth's Hopital East",
+    "date":"July to September",
+    "time":"Sat:10:00 AM - 2:00 PM;",
+    "address":"2700 Martin Luther King Jr. Avenue, SE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.959856,38.928445 ]
+    },
+    "properties": {
+    "FIELD1":10,
+    "name":"The Marketplace in Woodrige",
+    "date":"January to December",
+    "time":"Wed:10:00 AM - 2:00 PM;Sat:8:00 AM - 2:00 PM;",
+    "address":"3001 Bladensburg Road, NE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.0683,38.9158 ]
+    },
+    "properties": {
+    "FIELD1":11,
+    "name":"Glover Park-Burleith Farmers' Market",
+    "date":"05/16/2015 to 11/21/2015",
+    "time":"Sat: 9:00 AM-1:00 PM;",
+    "address":"1819 35th St. NW"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.05464,38.908709 ]
+    },
+    "properties": {
+    "FIELD1":12,
+    "name":"Georgetown Farmers' Market in Rose Park",
+    "date":"05/01/2013 to 10/30/2013",
+    "time":"Wed: 3:00 PM-7:00 PM;",
+    "address":"2600 O Street NW"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.998,38.9088 ]
+    },
+    "properties": {
+    "FIELD1":13,
+    "name":"DC Farmers Market",
+    "date":"NA",
+    "time":"NA",
+    "address":"1309 5th Street, NE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.0792,38.9489 ]
+    },
+    "properties": {
+    "FIELD1":14,
+    "name":"Tenley Town Farmers Market @ Whole Foods Market",
+    "date":"NA",
+    "time":"NA",
+    "address":"4530 40th Street, NW"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.028494,38.887743 ]
+    },
+    "properties": {
+    "FIELD1":15,
+    "name":"USDA Farmers Market",
+    "date":"05/01/2015 to 10/30/2015",
+    "time":"Fri: 9:00 AM-2:00 PM;",
+    "address":"Corner 12th St. & Independence Ave. SW"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.0163,38.9048 ]
+    },
+    "properties": {
+    "FIELD1":16,
+    "name":"Market Place at Sheriff Road",
+    "date":"NA",
+    "time":"NA",
+    "address":"NA"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.044083,38.895017 ]
+    },
+    "properties": {
+    "FIELD1":17,
+    "name":"Wellness Works Farmers Market at OPM",
+    "date":"05/07/2014 to 10/29/2014",
+    "time":"Wed: 11:00 AM-3:00 PM;",
+    "address":"1900 E Street NW"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.97636,38.843757 ]
+    },
+    "properties": {
+    "FIELD1":18,
+    "name":"Ward 8 Farmers' Market",
+    "date":"06/01/2014 to 11/22/2014",
+    "time":"Sat: 9:00 AM-2:00 PM;",
+    "address":"1901 Mississippi Ave. SE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.0703,38.9465 ]
+    },
+    "properties": {
+    "FIELD1":19,
+    "name":"New Morning Farmers Market",
+    "date":"NA",
+    "time":"NA",
+    "address":"Sheridan School"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.04469,38.91034 ]
+    },
+    "properties": {
+    "FIELD1":20,
+    "name":"Dupont Circle FRESHFARM Market",
+    "date":"January to December",
+    "time":"sun:8:30 AM - 1:00 PM;",
+    "address":"1500 20th Street, NW"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.05148,38.9007 ]
+    },
+    "properties": {
+    "FIELD1":21,
+    "name":"Foggy Bottom FRESHFARM Market",
+    "date":"April to November",
+    "time":"Wed:3:00 PM - 7:00 PM;",
+    "address":"2400 I Street, NW"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.988121,38.900327 ]
+    },
+    "properties": {
+    "FIELD1":22,
+    "name":"H Street NE FRESHFARM Market",
+    "date":"April to November",
+    "time":"Sat:9:00 AM - 12:00 PM;",
+    "address":"1300 H Street, NE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.023,38.8952 ]
+    },
+    "properties": {
+    "FIELD1":23,
+    "name":"Penn Quarter FRESHFARM Market",
+    "date":"March to December",
+    "time":"Thu:3:00 PM - 7:00 PM;",
+    "address":"400 8th Street, NW"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.03487,38.90075 ]
+    },
+    "properties": {
+    "FIELD1":24,
+    "name":"FRESHFARM Market, by the White House",
+    "date":"May to October",
+    "time":"Thu:11:00 AM - 2:30 PM;",
+    "address":"810 Vermont Avenue,  NW"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.03871,38.93161 ]
+    },
+    "properties": {
+    "FIELD1":25,
+    "name":"Mount Pleasant Farmers' Market",
+    "date":"04/04/2015 to 12/19/2015",
+    "time":"Sat: 9:00 AM-1:00 PM;",
+    "address":"3200 Mount Pleasant St NW"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.042643,38.922637 ]
+    },
+    "properties": {
+    "FIELD1":26,
+    "name":"Adams Morgan Farmers Market",
+    "date":"06/07/2014 to 12/20/2014",
+    "time":"Sat: 8:00 AM-1:00 PM;",
+    "address":"18th St. and Columbia Rd. NW"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.0121571,38.9126037 ]
+    },
+    "properties": {
+    "FIELD1":27,
+    "name":"Bloomingdale Farmers' Market",
+    "date":"05/04/2014 to 11/23/2014",
+    "time":"Sun: 9:00 AM-1:00 PM;",
+    "address":"First and R Streets NW"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.0320505,38.9169984 ]
+    },
+    "properties": {
+    "FIELD1":28,
+    "name":"14&U Farmers' Market",
+    "date":"05/03/2014 to 11/22/2014",
+    "time":"Sat: 9:00 AM-1:00 PM;",
+    "address":"1400 U Street NW"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.992791,38.934431 ]
+    },
+    "properties": {
+    "FIELD1":29,
+    "name":"Brookland Farmers Market",
+    "date":"06/03/2014 to 10/27/2014",
+    "time":"Tue: 3:30 PM-7:00 PM;",
+    "address":"10th and Otis Streets, NE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.0033,38.8765 ]
+    },
+    "properties": {
+    "FIELD1":30,
+    "name":"Capitol Riverfront Farmers Market at Canal Park",
+    "date":"NA",
+    "time":"NA",
+    "address":"200 M St. SE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.064887,38.946218 ]
+    },
+    "properties": {
+    "FIELD1":31,
+    "name":"UDC Farmers Market",
+    "date":"05/17/2014 to 11/22/2014",
+    "time":"Sat: 8:00 AM-2:00 PM;",
+    "address":"4340 CONNECTICUT AVE NW"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.995047,38.932976 ]
+    },
+    "properties": {
+    "FIELD1":32,
+    "name":"Historic Brookland Farmers Market",
+    "date":"05/10/2014 to 11/22/2014",
+    "time":"Sat: 9:00 AM-1:00 PM;",
+    "address":"716 Monroe Street, NE"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.029696,38.894918 ]
+    },
+    "properties": {
+    "FIELD1":33,
+    "name":"Capital Harvest on the Plaza",
+    "date":"04/04/2014 to 10/24/2014",
+    "time":"Fri: 11:00 AM-3:00 PM;",
+    "address":"13th Street & Pennsylvania Avenue NW"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.0250472,38.9411512 ]
+    },
+    "properties": {
+    "FIELD1":34,
+    "name":"Petworth Community Market",
+    "date":"05/02/2015 to 11/21/2015",
+    "time":"Sat: 9:00 AM-1:00 PM;",
+    "address":"4100 9th St. NW"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.0327468,38.9302453 ]
+    },
+    "properties": {
+    "FIELD1":35,
+    "name":"Columbia Heights Farmer's Market",
+    "date":"04/18/2015 to 12/12/2015",
+    "time":"Wed: 4:00 AM-7:30 PM;Sun: 9:00 AM-1:00 PM;",
+    "address":"Corner of 14th St. NW and Park St. NW"
+    }
+  }
+]
+}
