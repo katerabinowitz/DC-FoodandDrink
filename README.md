@@ -3,6 +3,15 @@ Data analysis + visualization of food and drink in DC for [DataLensDC](www.datal
 
 #####Topics:
 
+#####nightlifeGeoChanges (folder)
+Diners, Drive-ins and Dives city comparative and DC region locations
+
+Data Sources: [ABRA Liquor Licenses] (http://abra.dc.gov/page/abc-licensees); [Yelp] (yelp.com/dc); [Certificate of Occupancy] (https://github.com/katerabinowitz/ManyHomesofDCData/tree/master/Certificate%20of%20Occupancy%20Data_Hackathon)
+
+*Please note the folder includes a .csv version of liquor license data; ABRA reports in PDF. Additionally, Certificate of Occupancy was used, but turned out to be not material.* 
+
+Result: http://www.datalensdc.com/nightlife-neighborhoods.html
+
 #####DDD in DC (folder)
 Diners, Drive-ins and Dives city comparative and DC region locations
 
