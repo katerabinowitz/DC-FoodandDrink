@@ -4,11 +4,11 @@ Data analysis + visualization of food and drink in DC for [DataLensDC](www.datal
 #####Topics:
 
 #####nightlifeGeoChanges (folder)
-Diners, Drive-ins and Dives city comparative and DC region locations
+Finding the youngest and oldest nightlife neighborhoods by looking at the age of current bars, restaurants that serve alcohol, and clubs. ABRA Liquor License data was used to identify today's nightlife. Yelp was used to identify year open (where Yelp was a reliable source).  
 
 Data Sources: [ABRA Liquor Licenses] (http://abra.dc.gov/page/abc-licensees); [Yelp] (yelp.com/dc); [Certificate of Occupancy] (https://github.com/katerabinowitz/ManyHomesofDCData/tree/master/Certificate%20of%20Occupancy%20Data_Hackathon)
 
-*Please note the folder includes a .csv version of liquor license data; ABRA reports in PDF. Additionally, Certificate of Occupancy was used, but turned out to be not material.* 
+*Please note the folder includes a .csv version of liquor license data; ABRA reports in PDF. Additionally, Certificate of Occupancy was used, but turned out to be immaterial due.* 
 
 Result: http://www.datalensdc.com/nightlife-neighborhoods.html
 
