@@ -12,6 +12,15 @@ Data Sources: [ABRA Liquor Licenses] (http://abra.dc.gov/page/abc-licensees); [Y
 
 Result: http://www.datalensdc.com/nightlife-neighborhoods.html
 
+#### Breweries (folder)
+Comparison of breweries by major metropolitan areas, and mapping of DC region breweries
+
+Data Source: Brewer's Association (https://www.brewersassociation.org/directories/breweries/)
+
+Analysis: Numbers of breweries by type for the largest CBSAs and a mapping of breweries within the DC CBSA
+
+Result: http://www.datalensdc.com/DC-region-breweries.html
+
 ##### DDD in DC (folder)
 Diners, Drive-ins and Dives city comparative and DC region locations
 
