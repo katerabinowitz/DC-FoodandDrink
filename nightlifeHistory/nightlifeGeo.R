@@ -1,8 +1,7 @@
 require(dplyr)
 require(rgdal)
+require(geojsonio)
 require(ggmap)
-
-setwd("/Users/katerabinowitz/Documents/DataLensDCOrg/nightlifeTimeline")
 
 ### Double to single address
 ### Double to single address
@@ -53,3 +52,9 @@ liquorFinal <- cbind(llFinal, HoodID) %>%
               select(-year.x, -year.y, -id)
 
 write.csv(liquorFinal, "nightlife0816.csv")
+
+geojson_write(liquorFinal, geometry = "point",
+              file = "/Users/katerabinowitz/Documents/DataLensDC/DC-FoodandDrink/nightlifeHistory/nightlife.geojson", overwrite = TRUE)
+
+
+
