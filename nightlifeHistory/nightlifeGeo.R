@@ -51,10 +51,16 @@ liquorFinal <- cbind(llFinal, HoodID) %>%
                                           ifelse(year.x==15, "2015", "2016"))))))))) %>% 
               select(-year.x, -year.y, -id)
 
-write.csv(liquorFinal, "nightlife0816.csv")
+#add year open variable (2008 means 2008 or earlier)
+yrOpen <- liquorFinal %>% group_by(license) %>%
+  arrange(year) %>%
+  slice(1) %>%
+  rename(firstYr = year) %>%
+  select(license, firstYr)
+
+liquorFinal <- liquorFinal %>% left_join(yrOpen, by="license")
+
+write.csv(liquorFinal, "./nightlife0816.csv")
 
 geojson_write(liquorFinal, geometry = "point",
-              file = "/Users/katerabinowitz/Documents/DataLensDC/DC-FoodandDrink/nightlifeHistory/nightlife.geojson", overwrite = TRUE)
-
-
-
+              file = "./nightlife.geojson", overwrite = TRUE)
