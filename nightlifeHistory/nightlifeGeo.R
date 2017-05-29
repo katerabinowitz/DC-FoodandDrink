@@ -1,4 +1,5 @@
 require(dplyr)
+require(tidyr)
 require(rgdal)
 require(geojsonio)
 require(ggmap)
@@ -64,3 +65,21 @@ write.csv(liquorFinal, "./nightlife0816.csv")
 
 geojson_write(liquorFinal, geometry = "point",
               file = "./nightlife.geojson", overwrite = TRUE)
+
+#neighborhood cluster summaries
+cluster = readOGR(dsn="https://opendata.arcgis.com/datasets/f6c703ebe2534fc3800609a07bad8f5b_17.geojson", layer="OGRGeoJSON")
+latLon <- liquorFinal %>% select(lon, lat)
+
+points <- SpatialPoints(latLon, proj4string=CRS(as.character("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0")))
+clusterID <- over(points, cluster)
+
+nlCluster <- cbind(liquorFinal, clusterID)
+nlCount <- nlCluster %>% group_by(NBH_NAMES, year) %>%
+                         summarise(licenseN = n()) %>%
+                         spread(year, licenseN)
+
+colnames(nlCount) <- c("NBH_NAMES", "yr08", "yr09", "yr10", "yr11", "yr12", "yr13", "yr14", "yr15", "yr16")
+nlCount[is.na(nlCount)] <- 0
+nlCluster<-merge(cluster,nlCount,by="NBH_NAMES",all.x=TRUE)
+
+writeOGR(nlCluster, '/Users/katerabinowitz/Documents/DataLensDC/DC-FoodandDrink/nightlifeHistory/nlCluster.geojson','nlCluster', driver='GeoJSON',check_exists = FALSE)
