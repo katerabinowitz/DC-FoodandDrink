@@ -76,10 +76,14 @@ clusterID <- over(points, cluster)
 nlCluster <- cbind(liquorFinal, clusterID)
 nlCount <- nlCluster %>% group_by(NBH_NAMES, year) %>%
                          summarise(licenseN = n()) %>%
-                         spread(year, licenseN)
+                         subset(year %in% c(2008,2016))
 
-colnames(nlCount) <- c("NBH_NAMES", "yr08", "yr09", "yr10", "yr11", "yr12", "yr13", "yr14", "yr15", "yr16")
-nlCount[is.na(nlCount)] <- 0
-nlCluster<-merge(cluster,nlCount,by="NBH_NAMES",all.x=TRUE)
+nlGeo <- nlCount %>% spread(year, licenseN)
 
-writeOGR(nlCluster, '/Users/katerabinowitz/Documents/DataLensDC/DC-FoodandDrink/nightlifeHistory/nlCluster.geojson','nlCluster', driver='GeoJSON',check_exists = FALSE)
+colnames(nlGeo) <- c("NBH_NAMES", "yr16")
+nlGeo[is.na(nlGeo)] <- 0
+nlCluster<-merge(cluster,nlGeo,by="NBH_NAMES",all.x=TRUE)
+
+write.csv(nlCount, "./nightlifeHoodCount0816.csv")
+
+writeOGR(nlCluster, './nlCluster.geojson','nlCluster', driver='GeoJSON',check_exists = FALSE)
