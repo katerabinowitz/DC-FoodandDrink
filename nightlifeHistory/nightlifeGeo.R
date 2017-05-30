@@ -64,7 +64,7 @@ liquorFinal <- liquorFinal %>% left_join(yrOpen, by="license")
 write.csv(liquorFinal, "./nightlife0816.csv")
 
 geojson_write(liquorFinal, geometry = "point",
-              file = "./nightlife.geojson", overwrite = TRUE)
+              file = "nightlife.geojson", overwrite = TRUE)
 
 #neighborhood cluster summaries
 cluster = readOGR(dsn="https://opendata.arcgis.com/datasets/f6c703ebe2534fc3800609a07bad8f5b_17.geojson", layer="OGRGeoJSON")
@@ -78,12 +78,20 @@ nlCount <- nlCluster %>% group_by(NBH_NAMES, year) %>%
                          summarise(licenseN = n()) %>%
                          subset(year %in% c(2008,2016))
 
+nl16 <- nl %>% subset(year==2016 & licenseN > 9) %>%
+  select(NBH_NAMES)
+
+nl10 <- nl16 %>% left_join(nl, by="NBH_NAMES") %>% select(-X)
+fill <- data.frame("Edgewood, Bloomingdale, Truxton Circle, Eckington", 2008, 0)
+colnames(fill) <- c("NBH_NAMES", "year", "licenseN")
+nlCount <- rbind(nl10, fill) %>% arrange(NBH_NAMES, year, licenseN)
+
 nlGeo <- nlCount %>% spread(year, licenseN)
 
 colnames(nlGeo) <- c("NBH_NAMES", "yr16")
 nlGeo[is.na(nlGeo)] <- 0
 nlCluster<-merge(cluster,nlGeo,by="NBH_NAMES",all.x=TRUE)
 
-write.csv(nlCount, "./nightlifeHoodCount0816.csv")
+write.csv(nlCount, "nightlifeHoodCount0816.csv", row.names = FALSE)
 
-writeOGR(nlCluster, './nlCluster.geojson','nlCluster', driver='GeoJSON',check_exists = FALSE)
+writeOGR(nlCluster, 'nlCluster.geojson','nlCluster', driver='GeoJSON',check_exists = FALSE)
