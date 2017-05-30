@@ -88,10 +88,10 @@ nlCount <- rbind(nl10, fill) %>% arrange(NBH_NAMES, year, licenseN)
 
 nlGeo <- nlCount %>% spread(year, licenseN)
 
-colnames(nlGeo) <- c("NBH_NAMES", "yr16")
+colnames(nlGeo) <- c("NBH_NAMES", "yr08", "yr16")
 nlGeo[is.na(nlGeo)] <- 0
 nlCluster<-merge(cluster,nlGeo,by="NBH_NAMES",all.x=TRUE)
 
-write.csv(nlCount, "nightlifeHoodCount0816.csv", row.names = FALSE)
+write.csv(nlGeo, "nightlifeHoodCount0816.csv", row.names = FALSE)
 
 writeOGR(nlCluster, 'nlCluster.geojson','nlCluster', driver='GeoJSON',check_exists = FALSE)
