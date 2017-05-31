@@ -89,9 +89,17 @@ nlCount <- rbind(nl10, fill) %>% arrange(NBH_NAMES, year, licenseN)
 nlGeo <- nlCount %>% spread(year, licenseN)
 
 colnames(nlGeo) <- c("NBH_NAMES", "yr08", "yr16")
-nlGeo[is.na(nlGeo)] <- 0
-nlCluster<-merge(cluster,nlGeo,by="NBH_NAMES",all.x=TRUE)
+
+nlGeo$NBH_SHORT <- c("Cleveland, Woodley Park", "Palisades, Spring Valley", "Adams Morgan, Kalorama", "Chevy Chase", "Takoma, Brightwood", 
+                     'West End, Foggy Bottom', 'Brookland, Brentwood', 'Glover Park, McLean Gardens', 'Friendship Heights, Tenleytown', 'Georgetown', 
+                     'Ivy City, Trinidad', 'Bloomingdale, Eckington', 'Petworth, Brightwood Park', 'Navy Yard', 'Capitol Hill (SE)', 
+                     'Dupont Circle, K St.','Columbia Heights, Mt. Pleasant', 'Logan Circle', 'Captiol Hill (NE), H St.', 'Chinatown, Downtown', 'Shaw')
+
+nlGeo <- nlGeo %>% mutate(NBH_VSHORT = ifelse(NBH_SHORT == "Bloomingdale, Eckington", "Bloomingdale", 
+                                               ifelse(NBH_SHORT == "Dupont Circle, K St.", "Dupont, K St.",
+                                                      ifelse(NBH_SHORT == "Chinatown, Downtown", "Chinatown", NBH_SHORT))))
 
 write.csv(nlGeo, "nightlifeHoodCount0816.csv", row.names = FALSE)
 
+nlCluster<-merge(cluster,nlGeo,by="NBH_NAMES",all.x=TRUE)
 writeOGR(nlCluster, 'nlCluster.geojson','nlCluster', driver='GeoJSON',check_exists = FALSE)

@@ -1,22 +1,22 @@
-"NBH_NAMES","yr08","yr16"
-"Brightwood Park, Crestwood, Petworth",22,40
-"Brookland, Brentwood, Langdon",9,17
-"Capitol Hill, Lincoln Park",43,64
-"Cathedral Heights, McLean Gardens, Glover Park",22,31
-"Cleveland Park, Woodley Park, Massachusetts Avenue Heights, Woodland-Normanstone Terrace",40,41
-"Columbia Heights, Mt. Pleasant, Pleasant Plains, Park View",30,66
-"Downtown, Chinatown, Penn Quarters, Mount Vernon Square, North Capitol Street",140,189
-"Dupont Circle, Connecticut Avenue/K Street",163,197
-"Edgewood, Bloomingdale, Truxton Circle, Eckington",0,17
-"Friendship Heights, American University Park, Tenleytown",20,30
-"Georgetown, Burleith/Hillandale",71,84
-"Hawthorne, Barnaby Woods, Chevy Chase",8,13
-"Howard University, Le Droit Park, Cardozo/Shaw",58,120
-"Ivy City, Arboretum, Trinidad, Carver Langston",5,18
-"Kalorama Heights, Adams Morgan, Lanier Heights",71,75
-"Near Southeast, Navy Yard",2,22
-"Shaw, Logan Circle",21,60
-"Spring Valley, Palisades, Wesley Heights, Foxhall Crescent, Foxhall Village, Georgetown Reservoir",9,12
-"Takoma, Brightwood, Manor Park",9,14
-"Union Station, Stanton Park, Kingman Park",37,82
-"West End, Foggy Bottom, GWU",28,35
+"NBH_NAMES","yr08","yr16","change","NBH_SHORT","NBH_VSHORT"
+"Cleveland Park, Woodley Park, Massachusetts Avenue Heights, Woodland-Normanstone Terrace",40,41,1,"Cleveland, Woodley Park","Cleveland, Woodley Park"
+"Spring Valley, Palisades, Wesley Heights, Foxhall Crescent, Foxhall Village, Georgetown Reservoir",9,12,3,"Palisades","Palisades"
+"Kalorama Heights, Adams Morgan, Lanier Heights",71,75,4,"Adams Morgan, Kalorama","Adams Morgan, Kalorama"
+"Hawthorne, Barnaby Woods, Chevy Chase",8,13,5,"Chevy Chase","Chevy Chase"
+"Takoma, Brightwood, Manor Park",9,14,5,"Takoma, Brightwood","Takoma, Brightwood"
+"West End, Foggy Bottom, GWU",28,35,7,"West End, Foggy Bottom","West End, Foggy Bottom"
+"Brookland, Brentwood, Langdon",9,17,8,"Brookland, Brentwood","Brookland, Brentwood"
+"Cathedral Heights, McLean Gardens, Glover Park",22,31,9,"Glover Park","Glover Park"
+"Friendship Heights, American University Park, Tenleytown",20,30,10,"Friendship Heights","Friendship Heights"
+"Georgetown, Burleith/Hillandale",71,84,13,"Georgetown","Georgetown"
+"Ivy City, Arboretum, Trinidad, Carver Langston",5,18,13,"Ivy City, Trinidad","Ivy City, Trinidad"
+"Edgewood, Bloomingdale, Truxton Circle, Eckington",0,17,17,"Bloomingdale, Eckington","Bloomingdale"
+"Brightwood Park, Crestwood, Petworth",22,40,18,"Petworth, Brightwood Park","Petworth, Brightwood Park"
+"Near Southeast, Navy Yard",2,22,20,"Navy Yard","Navy Yard"
+"Capitol Hill, Lincoln Park",43,64,21,"Capitol Hill (SE)","Capitol Hill (SE)"
+"Dupont Circle, Connecticut Avenue/K Street",163,197,34,"Dupont Circle, K St.","Dupont, K St."
+"Columbia Heights, Mt. Pleasant, Pleasant Plains, Park View",30,66,36,"Columbia Heights, Mt. Pleasant","Columbia Heights, Mt. Pleasant"
+"Shaw, Logan Circle",21,60,39,"Logan Circle","Logan Circle"
+"Union Station, Stanton Park, Kingman Park",37,82,45,"Captiol Hill (NE), H St.","Captiol Hill (NE), H St."
+"Downtown, Chinatown, Penn Quarters, Mount Vernon Square, North Capitol Street",140,189,49,"Chinatown, Downtown","Chinatown"
+"Howard University, Le Droit Park, Cardozo/Shaw",58,120,62,"Shaw","Shaw"
