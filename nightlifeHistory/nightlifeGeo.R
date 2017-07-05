@@ -29,7 +29,7 @@ geoCoded <- cbind(geoAddress, LatLong)
 
 llFinal <- llFinal %>% select(license, year)
 
-llFinal <- inner_join(llFinal, geoCoded2, by="license")
+llFinal <- inner_join(llFinal, geoCoded, by="license")
 
 ### Assign neighborhoods
 ### Assign neighborhoods
